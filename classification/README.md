@@ -7,7 +7,7 @@ $ source('source.R')
 
 ### Data sets 
 
-**Table 1. Summary of the two datasets used in clustering analysis**
+**Table 1. Summary of the two datasets used in classification analysis**
 
 |               | Name           | Task  | Source |
 | ------------- |:-------------:|:-----:|:-----:|

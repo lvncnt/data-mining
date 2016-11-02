@@ -1,7 +1,9 @@
 # Classification by decision tree and naive Bayesian
 
 ### Data sets 
+
 **Table 1. Summary of the two datasets used in clustering analysis**
+
 |               | Name           | Task  | Source |
 | ------------- |:-------------:|:-----:|:-----:|
 | **Dataset 1**     | Pima Indians Diabetes Data Set | Predict whether a patient has diabetes | [Pima+Indians+Diabetes][Diabetes] |
@@ -12,6 +14,8 @@
 The caret package in R was used for splitting the data into training and test sets, for model training, for 10-fold cross validation, and for evaluating the performance of classification models (including generating the confusion matrix and computing ROC curves). A description of the models used in the caret package is shown in Table 2. 
 
 **Table 2. Clustering models used in training**
+
+
 |     Model    | method value   | Package  | Algorithm Description | Reference | 
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
 |Recursive partitioning| ctree|	party|	Implementation of Conditional inference trees (CTree). It uses a significance test procedure to select variables instead of selecting the variable that maximizes an information measure.|Hothorn et al. 2006|

@@ -18,7 +18,7 @@ $ source('source.R')
 ### Classifier
 The caret package in R was used for splitting the data into training and test sets, for model training, for 10-fold cross validation, and for evaluating the performance of classification models (including generating the confusion matrix and computing ROC curves). A description of the models used in the caret package is shown in Table 2. 
 
-**Table 2. Clustering models used in training**
+**Table 2. Classification models used in training**
 
 
 |     Model    | method value   | Package  | Algorithm Description | Reference | 

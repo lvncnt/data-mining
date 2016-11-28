@@ -1,0 +1,44 @@
+ .chart {
+    -fx-padding: 10px;
+    -fx-background-color: white;
+}
+ 
+.chart-content {
+    -fx-padding: 10px;    
+}
+ 
+.chart-title {
+    -fx-font-size: 18pt;    
+}
+ 
+ 
+.chart-legend {
+    -fx-background-color:  transparent;
+    -fx-padding: 10px;
+}
+ 
+.axis-label {
+    -fx-font-size: 14pt;
+}
+ 
+.axis {
+    -fx-tick-label-font: 12pt system;
+}
+ 
+.chart-symbol { /* solid circle */
+    -fx-background-radius: 3px;
+    -fx-padding: 3px;
+}
+ 
+.default-color0.chart-symbol {
+    -fx-background-color: black, forestgreen;
+}
+ 
+.default-color1.chart-symbol {
+    -fx-background-color: tomato;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-shape: "M2,0 L5,4 L8,0 L10,0 L10,2 L6,5 L10,8 L10,10 L8,10 L5,6 L2,
+        10 L0,10 L0,8 L4,5 L0,2 L0,0 Z";
+}
+ 
